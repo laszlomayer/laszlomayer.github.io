@@ -10,7 +10,39 @@ html {
 	color: #B9D0DA;
 }
 
-main, header, footer {
+main {
 	max-width: 1400px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	background-color: #2A205E;
+}
+
+footer {
+	background-color: #1D2046;
+}
+
+
+/*Section Styling*/
+/*Header Section*/
+.logo {
+	display: inline-block;
+}
+
+
+/*Navigation*/
+nav {
+	display: inline;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	padding: 
+}
+
+nav a {
+	color: #B9D0DA;
 }
