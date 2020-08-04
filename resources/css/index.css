@@ -70,6 +70,9 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+/*General Styles*/
+
 * {
 	box-sizing: border-box;
 }
@@ -93,6 +96,15 @@ h2 {
 	font-size: 1.5rem;
 }
 
+h3 {
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+.logo a {
+	color: #B9D0DA;
+}
+
 .center {
 	max-width: 1400px;
 	margin-left: auto;
@@ -108,12 +120,23 @@ h2 {
 	align-items: center;
 }
 
+
+/*Components*/
+
 .logo {
 	font-family: 'Roboto Slab', serif;
 }
 
+.icon-box {
+	width: 4rem;
+	height: 4rem;
+	background-color: #6E3EB9;
+	border-radius: 0.7rem;
+}
+
 
 /*Section Styling*/
+
 /*Header Section*/
 header {
 	background-color: #2A205E;
@@ -121,9 +144,9 @@ header {
 
 nav li {
 	display: inline-block;
-	padding: 10px 15px;
-	margin: 10px;
-	border-radius: 5px;
+	padding: 0.45rem 0.68rem;
+	margin: 0.45rem;
+	border-radius: 0.25rem;
 }
 
 nav .nav-currentpage {
@@ -152,10 +175,29 @@ nav a {
 }
 
 
+/*Intro Section*/
+.intro h3 {
+	color: #3EB9A9;
+}
+
+.intro .center {
+	padding: 2rem 0;
+}
+
+.intro-box {
+	margin-bottom: 1.5rem;
+	position: relative;
+}
+
+.intro-text {
+	position: absolute;
+	left: 5rem;
+	top: 0.8rem;
+}
 
 /*Footer Section*/
 footer {
 	background-color: #1D2046;
-	padding: 20px 0 40px 0;
+	padding: 2rem 0 3rem 0;
 	font-size: 0.8rem;
 }
