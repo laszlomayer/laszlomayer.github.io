@@ -142,8 +142,12 @@ main {
 .icon-box {
 	width: 4rem;
 	height: 4rem;
-	background-color: #6E3EB9;
+/*	background-color: #6E3EB9;*/
 	border-radius: 0.7rem;
+	background-image: -webkit-linear-gradient(46.77deg, #653fba 23%, #3c67c7 100%);
+	background-image: -moz-linear-gradient(46.77deg, #653fba 23%, #3c67c7 100%);
+	background-image: -o-linear-gradient(46.77deg, #653fba 23%, #3c67c7 100%);
+	background-image: linear-gradient(43.23deg, #653fba 23%, #3c67c7 100%);
 }
 
 
@@ -177,9 +181,13 @@ nav a {
 
 /*Hero Section*/
 #hero {
-	background-color: #3EB9A9;
+/*	background-color: #3EB9A9;*/
 	color: #563191;
 	padding: 5rem 0;
+	background-image: -webkit-linear-gradient(24.56deg, #67cfb9 28%, #33a0d9 50%, #5456b8 60%, #5f3cad 72%);
+	background-image: -moz-linear-gradient(24.56deg, #67cfb9 28%, #33a0d9 50%, #5456b8 60%, #5f3cad 72%);
+	background-image: -o-linear-gradient(24.56deg, #67cfb9 28%, #33a0d9 50%, #5456b8 60%, #5f3cad 72%);
+	background-image: linear-gradient(65.44deg, #67cfb9 28%, #33a0d9 50%, #5456b8 60%, #5f3cad 72%);
 }
 
 #hero h2 {
