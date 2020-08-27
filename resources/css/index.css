@@ -239,7 +239,10 @@ nav a {
 
 /*Portfolio Section*/
 
-
+.portfolio-project {
+	width: 33%;
+	display: inline-block;
+}
 
 /*Footer Section*/
 footer {
