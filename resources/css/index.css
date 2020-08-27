@@ -95,12 +95,14 @@ h1 {
 
 h2 {
 	font-size: 1.5rem;
+	margin-bottom: 1rem;
 }
 
 h3 {
 	font-weight: 700;
 	font-size: 1.2rem;
 	margin-bottom: 0.5rem;
+	color: #3EB9A9;
 }
 
 a {
@@ -115,7 +117,7 @@ a {
 	max-width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0 1rem;
+	padding: 2rem 1rem;
 }
 
 .center-flex {
@@ -131,6 +133,10 @@ a {
 main {
 	position: relative;
 	top: 2.82rem;
+}
+
+.alternate-bg {
+	background-color: #3B44AA;
 }
 
 
@@ -203,13 +209,6 @@ nav a {
 
 
 /*Intro Section*/
-.intro h2 {
-	margin-bottom: 1rem;
-}
-
-.intro h3 {
-	color: #3EB9A9;
-}
 
 .intro .center {
 	padding-top: 2rem;
@@ -236,6 +235,11 @@ nav a {
 	padding-top: 1rem;
 	color: #2E3284;
 }
+
+
+/*Portfolio Section*/
+
+
 
 /*Footer Section*/
 footer {
