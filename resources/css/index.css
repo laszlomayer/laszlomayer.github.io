@@ -105,6 +105,13 @@ h3 {
 	color: #3EB9A9;
 }
 
+h4 {
+	font-weight: 700;
+	font-size: 1.1rem;
+	margin-bottom: 0.5rem;
+	color: #B9D0DA;
+}
+
 a {
 	color: #E5BE1A;
 }
@@ -148,6 +155,10 @@ main {
 
 .alternate-bg {
 	background-color: #3B44AA;
+}
+
+.dark-bg {
+	background-color: #2E3284;
 }
 
 
@@ -259,10 +270,31 @@ nav a {
 /*Portfolio Section*/
 
 .portfolio-project {
-	width: 33%;
+	width: 33.33%;
 	float: left;
 	padding-right: 1rem;
 }
+
+.portfolio-padding {
+	background-color: #2E3284;
+	border-radius: 0.7rem;
+	overflow: hidden;
+}
+
+.portfolio-project .textbox {
+	padding: 1.5rem 1.5rem 2rem 1.5rem;
+	border-top: 5px solid #7A4DC2;
+}
+
+.last-paragraph {
+	margin-bottom: 2rem;
+}
+
+/*
+.portfolio-project h4 {
+	margin-top: 1.5rem;
+}
+*/
 
 /*Footer Section*/
 footer {
