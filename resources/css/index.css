@@ -130,6 +130,17 @@ a {
 	align-items: center;
 }
 
+.img-container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.img-container img {
+	max-width: 100%;
+  	height: auto;
+  	display: block;
+}
+
 main {
 	position: relative;
 	top: 2.82rem;
@@ -157,6 +168,14 @@ main {
 	background-image: linear-gradient(43.23deg, #7f4fe9 23%, #366ce8 100%);
 }
 
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear:both;
+}
 
 /*Section Styling*/
 
@@ -241,7 +260,8 @@ nav a {
 
 .portfolio-project {
 	width: 33%;
-	display: inline-block;
+	float: left;
+	padding-right: 1rem;
 }
 
 /*Footer Section*/
