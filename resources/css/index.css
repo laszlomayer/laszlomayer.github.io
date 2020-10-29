@@ -229,6 +229,18 @@ nav a {
 	font-size: 0.8rem;
 }
 
+nav .inactive {
+	color: #7A7A7A;
+	font-size: 0.8rem;
+}
+
+.anchor {
+    width: 10px;
+    height: 10px;
+    visibility: hidden;
+    position: absolute;
+    top: -2.82rem;
+}
 
 /*Hero Section*/
 #hero {
@@ -284,6 +296,10 @@ nav a {
 
 
 /*Portfolio Section*/
+#portfolio-section {
+	position: relative;
+}
+
 
 .portfolio-project {
 	width: 33.33%;
@@ -305,6 +321,13 @@ nav a {
 .last-paragraph {
 	margin-bottom: 2rem;
 }
+
+
+/*Story Section*/
+#story-section {
+	position: relative;
+}
+
 
 
 /*Footer Section*/
